@@ -1,0 +1,110 @@
+{
+  "timestamp": "02-09-2021 02:11:11.000",
+  "source": "sideView",
+  "results": [
+    {
+      "property": "landmark_1",
+      "result": 0.57462300000000011
+    },
+    {
+      "property": "landmark_2",
+      "result": 0.89887349999999988
+    },
+    {
+      "property": "landmark_3",
+      "result": 0.84821321428571417
+    },
+    {
+      "property": "landmark_4",
+      "result": 0.89756642857142865
+    },
+    {
+      "property": "landmark_5",
+      "result": 0.88796392857142858
+    },
+    {
+      "property": "landmark_6",
+      "result": 0.91133221428571443
+    },
+    {
+      "property": "landmark_7",
+      "result": 0.87087764285714286
+    },
+    {
+      "property": "landmark_8",
+      "result": 0.90854657142857143
+    },
+    {
+      "property": "landmark_9",
+      "result": 0.85883692857142857
+    },
+    {
+      "property": "landmark_10",
+      "result": 0.88421928571428576
+    },
+    {
+      "property": "landmark_11",
+      "result": 0.77429014285714282
+    },
+    {
+      "property": "landmark_12",
+      "result": 0.77930007142857138
+    },
+    {
+      "property": "landmark_13",
+      "result": 0.80814242857142859
+    },
+    {
+      "property": "landmark_14",
+      "result": 0.82769064285714289
+    },
+    {
+      "property": "landmark_15",
+      "result": 0.84619471428571447
+    },
+    {
+      "property": "landmark_16",
+      "result": 0.40528821428571427
+    },
+    {
+      "property": "landmark_17",
+      "result": 0.57658035714285716
+    },
+    {
+      "property": "landmark_18",
+      "result": 0.02994918571428571
+    },
+    {
+      "property": "landmark_19",
+      "result": 0.6630760714285715
+    },
+    {
+      "property": "landmark_20",
+      "result": 0.67453514285714289
+    },
+    {
+      "property": "landmark_21",
+      "result": 0.71041378571428571
+    },
+    {
+      "property": "landmark_22",
+      "result": 0.84546185714285726
+    },
+    {
+      "property": "landmark_23",
+      "result": 0.6070267142857142
+    },
+    {
+      "property": "landmark_24",
+      "result": 0.56528107142857131
+    },
+    {
+      "property": "landmark_25",
+      "result": 0.57919485714285712
+    },
+    {
+      "property": "avg_cr",
+      "result": 0.72933911885714275
+    }
+  ]
+}

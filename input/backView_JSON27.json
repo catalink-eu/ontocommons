@@ -1,0 +1,110 @@
+{
+  "timestamp": "02-09-2021 02:11:35.000",
+  "source": "backView",
+  "results": [
+    {
+      "property": "landmark_1",
+      "result": 0
+    },
+    {
+      "property": "landmark_2",
+      "result": 0.8524075000000001
+    },
+    {
+      "property": "landmark_3",
+      "result": 0.896603
+    },
+    {
+      "property": "landmark_4",
+      "result": 0.915873
+    },
+    {
+      "property": "landmark_5",
+      "result": 0.882619
+    },
+    {
+      "property": "landmark_6",
+      "result": 0.9055535
+    },
+    {
+      "property": "landmark_7",
+      "result": 0.84750324999999993
+    },
+    {
+      "property": "landmark_8",
+      "result": 0.88138050000000012
+    },
+    {
+      "property": "landmark_9",
+      "result": 0.856349
+    },
+    {
+      "property": "landmark_10",
+      "result": 0.84423625
+    },
+    {
+      "property": "landmark_11",
+      "result": 0.869901
+    },
+    {
+      "property": "landmark_12",
+      "result": 0.82940324999999993
+    },
+    {
+      "property": "landmark_13",
+      "result": 0.836956
+    },
+    {
+      "property": "landmark_14",
+      "result": 0.8965895
+    },
+    {
+      "property": "landmark_15",
+      "result": 0.9175625
+    },
+    {
+      "property": "landmark_16",
+      "result": 0
+    },
+    {
+      "property": "landmark_17",
+      "result": 0
+    },
+    {
+      "property": "landmark_18",
+      "result": 0.78207575000000007
+    },
+    {
+      "property": "landmark_19",
+      "result": 0.728141
+    },
+    {
+      "property": "landmark_20",
+      "result": 0.6082225
+    },
+    {
+      "property": "landmark_21",
+      "result": 0.64074125
+    },
+    {
+      "property": "landmark_22",
+      "result": 0.88552425
+    },
+    {
+      "property": "landmark_23",
+      "result": 0.53039299999999989
+    },
+    {
+      "property": "landmark_24",
+      "result": 0.6243365
+    },
+    {
+      "property": "landmark_25",
+      "result": 0.7804525
+    },
+    {
+      "property": "avg_cr",
+      "result": 0.71251296
+    }
+  ]
+}
