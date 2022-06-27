@@ -16,11 +16,10 @@ import java.util.Arrays;
 import java.util.UUID;
 
 public class Main {
-    private static Logger logger; // Logging facility
+    private static Logger logger = LoggerFactory.getLogger(Main.class);; // Logging facility
     private ObjectMapper objectMapper; // For JSON serialization & deserialization
 
     public Main(String path, String endpoint) {
-        logger = LoggerFactory.getLogger(Main.class);
         objectMapper = new ObjectMapper(); // JSON encoder
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL); // Ignore null fields
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY); // Ignore empty fields
@@ -95,6 +94,23 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new Main("input", "http://localhost:7200/repositories/cpsosaware"); // ToDo: parameters: (1) input JSON folder, (2) sparql endpoint
+        /*try {
+            new Main("/Users/stratos/Dev/IdeaProjects/ontocommons/input",
+                    "http://localhost:7200/repositories/cpsosaware");
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+        }*/
+
+        try {
+            if(args.length == 2) {
+                logger.info("Parsing inputs residing in folder " + args[0] + " and connecting to repository " + args[1]);
+                new Main(args[0], args[1]);
+            } else {
+                logger.error("Incorrect count of parameters - two parameters needed: (a) path to input folder, (b) triplestore endpoint");
+                System.exit(1);
+            }
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+        }
     }
 }
