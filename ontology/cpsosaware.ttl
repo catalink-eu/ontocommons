@@ -1,0 +1,216 @@
+@prefix : <http://cpsosaware.eu/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@base <http://cpsosaware.eu/ontology> .
+
+<http://cpsosaware.eu/ontology> rdf:type owl:Ontology ;
+                                 owl:imports sosa: .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cpsosaware.eu/ontology#AnalysisComponent
+:AnalysisComponent rdf:type owl:Class ;
+                   rdfs:subClassOf sosa:Sensor ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Analysis Component"@en .
+
+
+###  http://cpsosaware.eu/ontology#AnalysisOutput
+:AnalysisOutput rdf:type owl:Class ;
+                rdfs:subClassOf sosa:Observation ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Analysis Output"@en .
+
+
+###  http://cpsosaware.eu/ontology#AnalysisResult
+:AnalysisResult rdf:type owl:Class ;
+                rdfs:subClassOf sosa:Result ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Analysis Result"@en .
+
+
+###  http://cpsosaware.eu/ontology#CameraPoseEstimation
+:CameraPoseEstimation rdf:type owl:Class ;
+                      rdfs:subClassOf :PoseEstimationComponent ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Camera Pose Estimation"@en .
+
+
+###  http://cpsosaware.eu/ontology#PoseEstimationComponent
+:PoseEstimationComponent rdf:type owl:Class ;
+                         rdfs:subClassOf :AnalysisComponent ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Pose Estimation Component"@en .
+
+
+###  http://cpsosaware.eu/ontology#PoseEstimationProperty
+:PoseEstimationProperty rdf:type owl:Class ;
+                        rdfs:subClassOf sosa:ObservableProperty ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Pose Estimation Property"@en .
+
+
+###  http://cpsosaware.eu/ontology#WearablePoseEstimation
+:WearablePoseEstimation rdf:type owl:Class ;
+                        rdfs:subClassOf :PoseEstimationComponent ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Wearable Pose Estimation"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://cpsosaware.eu/ontology#avg_cr
+:avg_cr rdf:type owl:NamedIndividual ,
+                 :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#backView
+:backView rdf:type owl:NamedIndividual ,
+                   :CameraPoseEstimation .
+
+
+###  http://cpsosaware.eu/ontology#frontView
+:frontView rdf:type owl:NamedIndividual ,
+                    :CameraPoseEstimation .
+
+
+###  http://cpsosaware.eu/ontology#landmark_1
+:landmark_1 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_10
+:landmark_10 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_11
+:landmark_11 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_12
+:landmark_12 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_13
+:landmark_13 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_14
+:landmark_14 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_15
+:landmark_15 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_16
+:landmark_16 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_17
+:landmark_17 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_18
+:landmark_18 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_19
+:landmark_19 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_2
+:landmark_2 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_20
+:landmark_20 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_21
+:landmark_21 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_22
+:landmark_22 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_23
+:landmark_23 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_24
+:landmark_24 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_25
+:landmark_25 rdf:type owl:NamedIndividual ,
+                      :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_3
+:landmark_3 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_4
+:landmark_4 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_5
+:landmark_5 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_6
+:landmark_6 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_7
+:landmark_7 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_8
+:landmark_8 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#landmark_9
+:landmark_9 rdf:type owl:NamedIndividual ,
+                     :PoseEstimationProperty .
+
+
+###  http://cpsosaware.eu/ontology#sideView
+:sideView rdf:type owl:NamedIndividual ,
+                   :CameraPoseEstimation .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
