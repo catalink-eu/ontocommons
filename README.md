@@ -150,6 +150,6 @@ WHERE {
 
 ## Running the Code
 
-Simply build the code with Maven and run the Main class with two arguments:
+Simply build the code with Maven and run the `Main` class with two arguments:
 1. Absolute path to folder containing the input JSON files. 
 2. Triplestore endpoint.
