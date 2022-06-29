@@ -1,6 +1,6 @@
 # CPSoSaware OntoCommons Demonstrator
 
-Public repository hosting the source code for the CPSoSaware OntoCommons demonstrator
+Public repository hosting the source code for the CPSoSaware OntoCommons demonstrator. 
 
 
 ## Scope and Acknowledgement
@@ -54,7 +54,7 @@ Through the use of the ETL pipeline, the core semantic model is populated with i
 
 ## Sample SPARQL Queries
 
-This subsection demonstrates some sample SPARQL queries for the given dataset.
+This subsection demonstrates a set of sample SPARQL queries for the given dataset.
 
 
 ### Retrieve the Average Confidence Rate (CR) per Source
@@ -112,7 +112,9 @@ WHERE {
 ```
 
 
-### Indicate low CRs based on User-defined Threshold
+### Indicate Low CRs based on a User-defined Threshold
+
+The threshold is 0.3 for this example.
 
 ```sparql
 PREFIX : <http://cpsosaware.eu/ontology#>
@@ -131,6 +133,8 @@ WHERE {
 
 
 ### Retrieve Average Landmark Values for Upper Torso per Source
+
+Upper torso is indicated by landmarks 2-8.
 
 ```sparql
 PREFIX : <http://cpsosaware.eu/ontology#>
