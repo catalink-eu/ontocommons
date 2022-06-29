@@ -38,7 +38,7 @@ Below is a description of the core concepts included in the semantic model:
 - `AnalysisResult` represents the actual results from the analysis, i.e., values and units (if applicable).
 - `PoseEstimationProperty` represents the observable property that is relevant to estimating the correctness or not of the human operator’s pose.
 
-The core semantic model is available [here](ontology/cpsosaware.ttl).
+> The core semantic model is available [here](ontology/cpsosaware.ttl).
 
 
 ### Semantic Data Integration
@@ -53,7 +53,7 @@ Through the use of the ETL pipeline, the core semantic model is populated with i
            sosa:observedProperty :avg_cr .
 ```
 
-The populated KG is available [here](ontology/cpsosware-populated.ttl).
+> The populated semantic KG is available [here](ontology/cpsosware-populated.ttl).
 
 
 ## Sample SPARQL Queries
